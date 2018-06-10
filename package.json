@@ -1,0 +1,22 @@
+{
+  "name": "auto-switcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarWoHA/auto-switcher.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OscarWoHA/auto-switcher/issues"
+  },
+  "homepage": "https://github.com/OscarWoHA/auto-switcher#readme",
+  "dependencies": {
+    "obs-websocket-js": "^1.2.0"
+  }
+}
