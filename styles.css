@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 4rem 2rem;
+    background-color: #f1f1f1;
+}
+
+header p, header h1 {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: .75rem;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: column;
+
+    padding: 1rem 2rem;
+
+    flex: 1;
+
+    background: #3AAFAB;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+
+    flex: 1;
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
+
+    flex: 1;
+
+    justify-content: center;
+}
+
+form h2 {
+    font-weight: 400;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 25vw;
+
+    margin-bottom: 1rem;
+}
+
+form .form-group label {
+    font-size: 1em;
+
+    margin-bottom: .15rem;
+}
+
+form .form-group input, form .form-group select {
+    font-size: 1em;
+
+    padding: 15px;
+    border: none;
+
+    border-bottom: 2px solid white;
+}
+
+form .form-group input:focus, form .form-group select:focus  {
+    border-bottom: 2px solid black;
+
+    outline: 0;
+}
+
+form button {
+    font-size: 1em;
+
+    padding: 15px;
+
+    color: #000;
+    background-color: rgb(255, 238, 0);
+
+    border: 1px solid rgb(223, 208, 3);
+}
+
+form button:focus {
+    outline: 0;
+}
+
+.info .box {
+    background-color: #fff;
+    color: #000;
+
+    margin: 0 auto;
+
+    padding: 2rem;
+}
+
+.info p {
+    text-align: center;
+    font-size: 1.25em;
+
+    margin: 0;
+    margin-bottom: .5rem;
+}

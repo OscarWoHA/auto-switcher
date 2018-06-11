@@ -2,12 +2,49 @@
 
 <head>
     <meta charset="utf-8">
-    
+
     <title>Auto Switcher</title>
+
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <script type='text/javascript' src='./dist/obs-websocket.js'></script>
+    <header>
+        <h1>Auto Switcher</h1>
+        <p>A plugin for OBS WebSocket API</p>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <form class="connectionForm">
+                    <h2>Connect to OBS WebSocket</h2>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address" value="localhost">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="port">Port</label>
+                        <input type="text" name="port" id="port" placeholder="4444">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Your password">
+                    </div>
+
+                    <button>Connect</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./dist/obs-websocket.js"></script>
+    <script src="./moment.js"></script>
+    <script src="./jquery.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
